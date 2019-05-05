@@ -2,18 +2,149 @@
 
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+	<meta charset="utf-8">
 
-  <title>Lasse Borgholt</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
+	<title>Lasse Borgholt</title>
+	<meta name="description" content="The HTML5 Herald">
+	<meta name="author" content="SitePoint">
 
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+	<link rel="stylesheet" href="css/styles.css?v=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Serif:700|Raleway:200,600" rel="stylesheet">
+	<style>
+
+		h1#pagetitle {
+			text-align: center;
+			margin: 55px 0px;
+			font-family: 'Raleway', sans-serif;
+		}
+
+		h2 {
+			text-align: center;
+			font-family: 'Noto Serif', serif;
+			margin-top: 30px;
+		}
+
+		hr {
+			width: 350px;
+		}
+
+		table {
+			margin-left:auto; 
+			margin-right:auto;
+			margin-bottom: 30px;
+    	}
+
+		td { 
+			padding: 5px;
+			padding-bottom: 20px;
+			line-height: 24px;
+			font-family: 'Raleway', sans-serif;
+			text-align: center;
+		}
+
+		span.title {
+			font-weight: 600;
+		}
+
+		table#exp td {
+			width: 300px;
+		}
+
+		table#edu td {
+			width: 300px;
+		}
+
+		table#pub td {
+			width: 550px;
+		}
+
+	</style>
 
 </head>
 
 <body>
-  <script src="js/scripts.js"></script>
-  <h1>Lasse Borgholt</h1>
+	<script src="js/scripts.js"></script>
+	
+	<h1 id='pagetitle'>Lasse Borgholt</h1>
+	
+
+	<hr>
+
+	<h2>Experience</h2>
+
+		<table id='exp'>
+			<tr>
+				<td>
+					<span class='title'>PhD student</span><br>
+					University of Copenhagen and Corti<br>
+					<span class='periode'>February 2019 - Present</span>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span class='title'>Machine learning researcher</span><br>
+					Corti<br>
+					<span class='periode'>July 2016 - January 2019</span>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span class='title'>Teaching assistant</span><br>
+					University of Copenhagen<br>
+					<span class='periode'>September 2015 - January 2016</span>
+				</td>
+			</tr>
+		</table>
+
+	<hr>
+
+	<h2>Education</h2>
+
+		<table id='edu'>
+			<tr>
+				<td>
+					<span class='title'>Master, IT & Cognition</span><br>
+					University of Copenhagen<br>
+					<span class='periode'>September 2013 - June 2016</span>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span class='title'>Bachelor, Business Administration</span><br>
+					University of Southern Denmark<br>
+					<span class='periode'>September 2009 - June 2012</span>
+				</td>
+			</tr>
+		</table>
+
+	<hr>
+
+	<h2>Publications</h2>
+
+		<table id='pub'>
+			<tr>
+				<td>
+					<span class='title'>The rating game: Sentiment rating reproducibility from text</span><br>
+					Lasse Borgholt, Peter Simonsen and Dirk Hovy<br>
+					EMNLP 2015
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span class='title'>Exploiting Nontrivial Connectivity for Automatic Speech Recognition</span><br>
+					Marius Paraschiv, Lasse Borgholt, Tycho Tax, Marco Singh and Lars Maaløe<br>
+					NIPS workshop 2017
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span class='title'>On the Inductive Bias of Word-Character-Level Multi-Task Learning for Speech Recognition</span><br>
+					Jan Kremer, Lasse Borgholt and Lars Maaløe<br>
+					NIPS workshop 2018
+				</td>
+			</tr>
+		</table>
+
+
 </body>
 </html>
